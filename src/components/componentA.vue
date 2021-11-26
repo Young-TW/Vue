@@ -6,11 +6,6 @@
     <p>hello world</p>
     {{data}}
   </div>
-  <div v-else>
-    <p>
-      nothing
-    </p>
-  </div>
   <div class="c2" v-if="view === 2">
     <input type="text" v-model="text"/>
     <p>
